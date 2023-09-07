@@ -1,0 +1,275 @@
+/* Font work sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+/* Common shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #FF42A5;
+}
+
+.btn-primary {
+    border-radius: 48px;
+    background: var(--primary-color);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+
+}
+
+
+
+
+
+/* Nav styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1360px;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title-logo {
+    width: 86.041px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.gamer {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.G-From-Game {
+
+    color: var(--primary-color);
+}
+
+.nav-right-side>ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 140px;
+    margin-top: 20px;
+    align-items: baseline;
+}
+
+li {
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us {
+
+    width: 262px;
+    height: 56px;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin-left: 32px;
+
+
+}
+
+.follow-us-on {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+.youtube,
+.telegram {
+    width: 7%;
+}
+
+
+/* Mian styles */
+.goat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-like-the-goat>h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+
+}
+
+.play-like-the {
+    margin-top: 90px;
+}
+
+.goat {
+    font-size: 95px;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-top: auto;
+
+}
+
+.goat-content {
+    display: flex;
+}
+
+.goat-content>p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-go {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* 2nd part */
+.we-are-gamer-container {
+    display: flex;
+}
+
+.wrg {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.we-are-gamer>p {
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.we-are-gamer,
+button {
+    text-align: right;
+}
+
+
+.purpose {
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* 3rd part */
+.OGFV {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.OGFV-desc {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.funny {
+    color: var(--primary-color);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Last part */
+.last-part {
+    display: flex;
+}
+
+.PP {
+    color: var(--primary-color);
+
+}
+
+.play-inst h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 1800px;
+    height: 636px;
+    background: #0B0223;
+    text-align: center;
+
+}
+
+
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-title-logo {
+    width: 86.041px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+
+.footer-gamer {
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-content>p {
+    color: white;
+}
